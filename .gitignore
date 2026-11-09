@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build output
+dist/
+dist-ssr/
+
+# Environment files and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Local / Personal PDF documents & Test files
+*.pdf
+*.test.pdf
+test-sample*.pdf
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Temporary and cache directories
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.vite/
+capture-screenshots.mjs
+serve-dist.mjs
+test-milestone1.mjs
+.tmp-edge-capture/
